@@ -6,7 +6,7 @@ import re
 import os
 import ConfigParser
 
-MODULE = '<module>'
+MODULE = 'electronic_mail_model'
 PREFIX = 'nantic'
 MODULE2PREFIX = {}
 
