@@ -6,8 +6,7 @@ from trytond.model import fields
 __all__ = ['IMAPServer']
 
 
-class IMAPServer:
+class IMAPServer(metaclass=PoolMeta):
     __name__ = 'imap.server'
-    __metaclass__ = PoolMeta
 
     model = fields.Many2One('ir.model', 'Model')
