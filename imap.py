@@ -3,8 +3,6 @@
 from trytond.pool import PoolMeta
 from trytond.model import fields
 
-__all__ = ['IMAPServer']
-
 
 class IMAPServer(metaclass=PoolMeta):
     __name__ = 'imap.server'
